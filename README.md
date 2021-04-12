@@ -29,11 +29,11 @@ _Nota: También se puede cambiar la función de distancia, en este caso se utili
 
 | K  | Test Accuracy |
 | ------------- | ------------- |
-| 3  | 0.9333 % |
-| 5  | **0.9778** % |
-| 7  | 0.9778 % |
-| 9  | 0.9778 % |
-| 11  | 0.9333 % |
+| 3  | 93.33 % |
+| 5  | **97.78** % |
+| 7  | 97.78 % |
+| 9  | 97.78 % |
+| 11  | 93.33 % |
 
 ## Modelo **#2**
 
@@ -53,5 +53,5 @@ ya incluye LogSoftmax por lo que no se utiliza **ReLU** para el último layer.
 ### Accuracy de los modelos
 | Modelo  | Test Accuracy |
 | ------------- | ------------- |
-| KNN k=5  | 0.9778 % |
+| KNN k=5  | 97.78 % |
 | MLP  | **100.00 %** |
